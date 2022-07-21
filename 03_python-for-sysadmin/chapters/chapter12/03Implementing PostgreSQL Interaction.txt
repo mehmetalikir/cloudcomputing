@@ -1,0 +1,17 @@
+touch src/pgbackup/pgdump.py
+
+python
+
+>>> import subprocess
+>>> proc = subprocess.Popen(['Fake'])
+
+PYTHONPATH=./src python
+>>> from pgbackup import pgdump
+>>> proc = pgdump.dump('postgres://demo:password@3.25.204.223:80/sample')
+>>> f = open('dump.sql', 'wb')
+>>> f.write(proc.stdout.read())
+>>> f.close()
+>>> exit()
+
+$ cat dump.sql
+
