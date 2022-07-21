@@ -1,0 +1,12 @@
+man wc ---world count 
+
+
+wc -l longfile.txt
+wc -l longfile.txt > value.txt
+
+wc -L longfile.txt
+wc -L longfile.txt >> value.txt
+
+wc -m longfile.txt
+wc -m longfile.txt >> value.txt
+

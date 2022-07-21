@@ -1,0 +1,28 @@
+"""
+this is comment
+"""
+
+"Ha" * 4 
+HaHaHaHA
+
+"double".find('s')
+-1
+
+"double".find('u')
+2
+
+"TeStInG".lower()
+'testing'
+
+"Password123".lower()
+
+print("Tab"\tDelimited)
+Tab    Deliited
+
+print("New\nLine")
+New
+Line
+
+print(slash\\carecter)
+slash\carecter
+

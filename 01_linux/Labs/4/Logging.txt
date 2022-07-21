@@ -1,0 +1,19 @@
+syslog, rsyslogd
+
+/var/log/messages
+/var/log/syslog
+
+/var/log/auth.log
+crontab -l 
+cat /etc/crontab
+crontab -e
+nano
+
+
+/var/log/secure
+/varlog/boot/log
+/var/log/cron.log
+/var/log/kern.log
+
+/var/log/faillog
+ssh localhost

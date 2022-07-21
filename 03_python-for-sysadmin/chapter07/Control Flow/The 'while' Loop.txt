@@ -1,0 +1,16 @@
+
+while True:
+	print('looping')
+
+count = 1
+while count <= 4:
+	print('looping')
+count += 1 
+
+count=0 
+while count < 10
+	if count % 2 = 0
+	count += 1
+	continue
+	print("Counting odd numbers: {count}")
+	count += 1

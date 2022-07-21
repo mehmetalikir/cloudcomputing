@@ -1,0 +1,3 @@
+sudo ip addr show
+sudo ip route show
+cat /etc/resolv.conf | grep nameserver

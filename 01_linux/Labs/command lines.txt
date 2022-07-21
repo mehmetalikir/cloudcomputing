@@ -1,0 +1,32 @@
+--------------------------
+ cd ./Desktop/Cloudy/Shell
+vagrant up
+vagrant ssh
+exit
+vagrant halt
+--------------------------
+curl http://bla bla
+sudo apt-get update
+sudo apt-get install
+--------------------------
+apropos, apropos working directory
+--------------------------
+rf (recursive force)
+ping 8.8.8.8
+sort Ctrl+D
+bc  r^2 
+man man
+less ---> D key, space bar, U key, > skip to the last line
+--------------------------
+history
+sudo unzip
+cat
+diff
+wc
+ls -a
+ls -l
+
+
+
+
+

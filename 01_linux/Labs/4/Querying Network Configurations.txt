@@ -1,0 +1,11 @@
+ip route show
+ip a s
+ip r s
+ifconfig
+ss
+netstat -tlnp
+cat /etc/services | grep 22
+!net
+ss -ltnp
+ss -ulnp
+ss -lntp

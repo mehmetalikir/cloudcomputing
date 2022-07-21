@@ -1,0 +1,62 @@
+
+
+create new server ->> centOS7-docker server start via cloud(Azure, Aws or GoogleCloud)
+
+then open terminal 
+
+download database ->> curl -o db_setup.sh https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/db_setup.sh
+
+then 
+
+
+chmod +x db_setup.sh
+./db_setup.sh
+
+exit from PostgreSQL server 
+
+
+
+create new server ->> fedora34-workstaion
+
+install postgresql on fedora ->> sudo dnf install postgresql-server postgresql-contrib
+sudo systemctl enable postgresql
+sudo postgresql-setup --initdb --unit postgresql
+sudo systemctl start postgresql
+
+user_name = demo(anything)
+password  = password(anything)
+
+then 
+
+connect to PostgreSQL server(database) from fedora34-workstaion server and play it using by SQL. Public IPv4(dynamic) will swap everytime you start it, username and password(static)
+
+
+ 
+
+psql postgres://demo:password@13.236.85.136:80/sample -c "SELECT * FROM employees;"
+
+
+psql postgres://demo:password@3.25.204.223:80/sample -c "SELECT gender FROM 
+employees WHERE gender = 'Female';"
+
+psql postgres://demo:password@3.25.204.223:80/sample -c "SELECT * FROM employees
+WHERE email LIKE '%tt%';"
+
+psql postgres://demo:password@3.25.204.223:80/sample -c "SELECT * FROM EMPLOYEES WHERE first_name NOT LIKE '%a%' AND id BETWEEN 200 AND 220;"
+
+psql postgres://demo:password@3.25.204.223:80/sample -c "SELECT * FROM EMPLOYEES
+WHERE id>900 AND (last_name LIKE '%tt%' OR last_name LIKE '%ll%');"
+
+
+psql postgres://demo:password@3.25.204.223:80/sample -c "SELECT last_name FROM employees WHERE employees.email LIKE '%ll%' AND id <= 100;"
+
+
+
+
+
+
+**congratulations you are successfully installed a cloud based system**
+
+***all of the above could be automated as db_setup.sh with shell -challenge-***
+
+****Please play with SQL because it will help you to understand how to script****

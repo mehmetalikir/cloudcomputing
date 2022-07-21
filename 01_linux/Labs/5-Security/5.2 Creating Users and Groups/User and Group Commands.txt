@@ -1,0 +1,50 @@
+sudo useradd pikachu
+cat /etc/passwd | wc -l
+cat /etc/passwd | grep pikachu
+
+then we could see pikachu added as new user
+
+cat /etc/group | grep pikachu
+
+then we could not see pikachu in any groups cause it is not added 
+
+sudo cat /etc/shadow | grep pikachu
+....
+sudo su - pikachu 
+....
+sudo passwd pikachu 
+
+
+usermod
+sudo usermod -s /bin/bash pikachu
+cat /etc/passwd | grep pikachu
+ll /home/
+
+sudo useradd -m balbazar
+ll
+ll /etc/skel/
+
+cat /etc/group | grep sudo
+groups
+sudo groupadd generationvictoria
+sudo usermod -a -G generationvictoria mehmet
+
+./etc/profile
+groups
+sudo usermod -a -G generationvictoria pikachu
+sudo usermod -a -G generationvictoria balbazar
+cat /etc/group | grep linux
+
+sudo visudo
+sudo cat /etc/sudoers.d 
+cd /tmp/
+touch file
+ll file
+
+
+
+
+
+
+
+

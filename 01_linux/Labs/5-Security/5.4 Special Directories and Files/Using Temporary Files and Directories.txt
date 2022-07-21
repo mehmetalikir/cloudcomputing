@@ -1,0 +1,19 @@
+ln -s [TARGET] [LINK NAME]
+
+ln -s /home/cloud_user/file1/tmp/file2
+
+touch /tmp/newfile
+
+mktemp
+
+tmp_file=$(mktemp)
+
+echo $tmp_file
+
+ls /home/mehmet/ >> $tmp_file
+cat $tmp_file
+
+mktemp mehmet.XXX
+ll
+mktemp /tmp/mehmet.XXXX
+

@@ -1,0 +1,6 @@
+tar cvf archive.tar Practice/
+tar rf archive.tar extra.txt
+tar czf archive.tgz Practice/
+gzip -9 archive.tar
+tar xzf archive.tar.gz Practice/Test/version.txt
+

@@ -1,0 +1,10 @@
+cat /etc/resolv.conf
+
+host www.linuxacademy.com
+dig www.linuxacademy.com
+
+dig @1.1.1.1 www.linuxacademy.com
+host www.linuxacademy.com 1.1.1.1
+
+ping -c1 www.linuxacademy.com
+curl -I www.linuxacademy.com

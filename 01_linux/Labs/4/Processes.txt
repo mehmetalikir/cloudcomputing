@@ -1,0 +1,11 @@
+PID
+proc
+cd 3157/
+cd 3157/attr/
+cat /proc/self/sta
+/proc/<PID>/
+ps aux | grep mehmet | wc -l
+ps -eF
+sys
+dev
+tab 

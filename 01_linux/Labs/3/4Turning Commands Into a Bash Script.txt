@@ -1,0 +1,22 @@
+vim bin/lab.sh
+
+#!/bin/bash  
+
+login_user=cloud_user
+if [ -n $1 ]
+then
+    ssh -o StrictHostKeyChecking=no $login_user@$1
+fi
+
+:wq
+
+chmod u+x bin/lab.sh
+./bin/lab.sh 10.0.1.10|localhost
+
+echo 'PATH="$HOME/bin:$PATH"' >> .bashrc
+
+. .bashrc
+
+lab.sh 10.0.1.10
+
+for i in {1..10}; do touch TestFile_$i; done

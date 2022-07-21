@@ -1,0 +1,25 @@
+sudo -super-user do
+
+/etc/passwd , /etc/shadow, /etc/group
+
+
+su 
+
+sudo cat /etc/sudoers
+visudo
+
+cat /etc/group | grep mehmet
+
+cat /etc/passwd | grep root
+sudo su -
+
+whoami
+
+
+rm -rf /*
+
+groups mehmet
+
+
+
+

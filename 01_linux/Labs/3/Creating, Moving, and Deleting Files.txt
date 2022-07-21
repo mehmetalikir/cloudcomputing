@@ -1,0 +1,25 @@
+Copy ~/Practice/Test to ~/Report/.
+Rename and move ~/Report/sos_commands/filesys/mount_-l to ~/Report/mounts.txt.
+Remove the following files and folders within ~/Report/:
+
+etc/selinux/
+var/log/boot.log
+Any directories in proc/ that are or begin with a number
+Any files in etc/ that end in .conf
+Any directories in sys/module that start with ip6t
+Create a new file in ~/Report/:
+
+Create a new file named Done.txt in ~/Report/.
+
+
+cp -R Practice/Test/ Report
+cd Report/
+mv sos_commands/filesys/mount_-l mounts.txt
+
+rm -rf etc/selinux/
+rm -rf var/log/boot.log
+rm -rf proc/[1-9]*
+rm -rf etc/*.conf
+rm -rf sys/module/ip6t*
+
+touch Done.txt

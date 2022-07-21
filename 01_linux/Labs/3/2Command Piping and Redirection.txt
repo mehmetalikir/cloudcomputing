@@ -1,0 +1,8 @@
+ls /usr/share/ | wc -l
+ls /usr/share/ | wc -l > ~/value.txt
+
+cat /var/log/dpkg.log | grep unpacked | wc -l
+cat /var/log/dpkg.log | grep unpacked | wc -l >> ~/value.txt
+
+cat /var/log/dpkg.log | wc -l
+cat /var/log/dpkg.log | wc -l >> ~/value.txt

@@ -1,0 +1,10 @@
+id sysuser
+groups sysuser
+cat /etc/group | grep sysuser
+
+
+getent passwd sysuser
+cat /etc/passwd | grep sysuser
+
+getent passwd sysuser
+cat /etc/passwd | grep sysuser

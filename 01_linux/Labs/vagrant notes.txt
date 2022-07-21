@@ -1,0 +1,8 @@
+1. create folder then copy path adn paste command line
+2. //vagrant box add ubuntu/trusty64
+3. vagrant init ubuntu/trusty64
+4. vagrant up
+5. vagrant ssh
+6. could do manually vagrant ssh-config 
+7. ssh vagrant@127.0.0.1 -p 2222 C:/Users/mehme/.vagrant.d/insecure_private_key
+config.vm.boot_timeout = "1440"

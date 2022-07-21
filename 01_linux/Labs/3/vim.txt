@@ -1,0 +1,17 @@
+head file -n 100
+tail file -n 100
+
+/ search
+qq go to first line 
+shift + g last line
+set nu gives line numbers
+page line + G goes line
+I insert, Shit +I
+o -append
+vimtutor
+
+
+
+
+
+

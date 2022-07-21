@@ -1,0 +1,31 @@
+sudo su -
+yum groupinstall -y "tools"
+zlib-devel \
+bzip2-devel \
+openssl-devel \
+ncurses-devel \
+sqlite-devel \
+readlinne-devel \
+tk-devel \
+db4-devel \
+libpcap-devel \
+xz-devel \
+expat-devel
+
+cd /usr/src/
+ls
+
+wget https://www.python
+
+tar xf Pyhon-3.6
+cd Python-3.6
+
+./configure --enable-optimizations
+
+make altinstall
+sudo pip3.6 install --upgrade pip
+
+
+sudo vim /etc/sudoers
+
+

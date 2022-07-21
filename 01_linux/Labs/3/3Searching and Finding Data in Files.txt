@@ -1,0 +1,13 @@
+cat /usr/share/dict/words | grep -E "^x" | wc -l
+cat /usr/share/dict/words | grep -E "^x" | wc -l >> ~/value.txt
+
+cat /usr/share/dict/words | grep -E "x$" | wc -l
+cat /usr/share/dict/words | grep -E "x$" | wc -l >> ~/value.txt
+
+cat /usr/share/dict/words | grep -E "^l...x$"
+cat /usr/share/dict/words | grep -E "^l...x$" >> ~/value.txt
+
+cat /usr/share/dict/words | grep -E "^y..$|^z..$" | wc -l
+cat /usr/share/dict/words | grep -E "^y..$|^z..$" | wc -l >> ~/value.txt
+
+

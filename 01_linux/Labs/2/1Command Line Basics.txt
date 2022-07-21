@@ -1,0 +1,19 @@
+var1 = "something"
+echo $var1
+
+$HOME
+$PS1 /user/host/working directory
+	cd ~
+$PATH
+
+var1=$(ls)
+echo $var1
+
+''single quotes
+""double quotes
+
+w
+last
+w > log.txt
+last >> log.txt
+cat log.txt

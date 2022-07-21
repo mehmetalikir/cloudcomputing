@@ -1,0 +1,9 @@
+curl -I localhost
+
+sudo cat /var/log/httpd/access_log | grep -E "^10.0.1.10" | wc -l
+
+sudo tail -f /var/log/httpd/access_log
+
+sudo tail -f /var/log/httpd/access_log
+
+curl http://PUBLIC_IP/server.html

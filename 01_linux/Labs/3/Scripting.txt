@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch file.sh
+chmod +x
+
+echo 'echo "Please Enter Your Name:"' >> file.sh
+echo 'read u' >> file.sh
+echo '"Hello $u!, How are you? "' >> file.sh
+echo ' echo " " '

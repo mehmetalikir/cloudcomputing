@@ -1,0 +1,53 @@
+-c create
+-x extract
+-r append
+-t list 
+-f read
+
+tar cf archive.tar*
+tar xf archive.tar
+tar tf 
+tar rf
+
+tar xf abc.tar --wilcaards 'Text*'
+tar --delete --file=abc.tar file*
+
+
+----------------------------------
+
+df -h --> human readable
+rm -rf *
+
+cp /usr/share/dict/american-english ./
+for i in {1..10}; do cp x y$i; done
+
+ls alh
+tar czf archive.tar.gz
+tar cjf archive.tar.bz2
+
+----------------------------
+
+grep Apple file
+gep -E ^Mehmet file
+
+cat file | grep Apple | wc -l 
+cat /etc/passwd | grep mehmet cut -d: -f6
+
+------------------------------
+cat file | grep Apple > apple_result.txt
+cat file | grep Banana >> apple_result.txt
+
+cat apple_result.txt | sort > sorted.txt
+cat apple_result.txt | sort < sorted.txt
+
+------------------------------------------
+
+cat file | grep -E "^Apple"
+cat file | grep -E "Apple$"
+                   "^Apple$"
+
+			   "Apple|Ball"
+			   "Ap*le"
+			   "Ap+le"
+			   "Ap?le"
+			   "Ap[a-z]le"

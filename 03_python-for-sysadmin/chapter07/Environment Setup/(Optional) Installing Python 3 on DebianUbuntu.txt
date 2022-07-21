@@ -1,0 +1,21 @@
+apt update -y
+wget \
+build-essential 
+libssl-dev \
+zlib1g-dev \
+libbz2-dev \
+libedline-dev \
+libsqlite3-dev \
+libncurses5-dev \
+libcursesw5-dev \
+xz-utils \
+tk-dev
+
+dpkg --configue -a
+wget https:www.Pyt..
+tar xf Python
+
+./configure --enable-optimizations
+
+make altinstall
+sudo vim/etc/sudoers 

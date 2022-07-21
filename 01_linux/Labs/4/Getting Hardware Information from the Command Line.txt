@@ -1,0 +1,27 @@
+cat /proc/cpuinfo
+
+sudo dmiecode
+
+df -h
+
+sudo lshw
+cat /proc/cpuinfo
+lscpu
+free -m
+
+sudo lshw
+sudo dmidecode
+
+uname -r
+blkid
+cat confiq 3432423-generic
+
+cat /proc/self/status
+
+ps -ef | grep
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+ls -lAt  var/log
+
+ls -lAt ~/Practice/Test/var/log/
+ls -lS ~/Practice/Test/var/log/
+ls -l ~/Practice/Test/sos_commands/networking/netstat_-W_-neopa
+ls -lu ~/Practice/Test/sos_commands/networking/netstat_-W_-neopa

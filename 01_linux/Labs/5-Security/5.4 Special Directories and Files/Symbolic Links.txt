@@ -1,0 +1,13 @@
+mkdir Links 
+cd Links 
+ll
+mktemp
+ln -s /tmp/tmp.NtRXdfsfdsf temp_file
+ls
+
+ll
+
+rm /tmp/tmp.NtRXdfsfdsf
+
+ll
+

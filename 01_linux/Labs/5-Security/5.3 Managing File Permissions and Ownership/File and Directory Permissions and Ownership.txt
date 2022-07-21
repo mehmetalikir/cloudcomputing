@@ -1,0 +1,31 @@
+user, group, everyone
+
+
+
+mkdir perms
+cd perms
+touch file testfile
+touch file testfile2
+touch file testfile3
+
+echo "Some Text" >> testfile 
+echo "Some Text" >> testfile2
+echo "Some Text" >> testfile3
+
+
+sudo chown :generation testfile
+ll
+
+chmod 664 testfile 
+cdhmod 644 testfile
+chmod g+rw testfile
+
+sudo chown pikachu testfile2
+sudo echo "second line" >> testfile2
+
+chmod 777 test*
+ll
+
+sudo chown mehmet:mehmet *
+
+chmod 644 *

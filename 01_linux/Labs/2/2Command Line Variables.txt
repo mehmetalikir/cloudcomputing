@@ -1,0 +1,8 @@
+env
+echo $PATH
+PATH=$PATH:$HOME/scripts/
+~/.profile
+echo 'PATH="$PATH:$HOME/scripts"' >> ~/.profile
+
+chmod +x test.sh
+chmod u+r+x

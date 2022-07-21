@@ -1,0 +1,12 @@
+etc
+boot
+boots ls
+uname -r 
+cat config 4... 50  generic
+cat /etc/fstab
+/etc/passwd
+/etc/group
+/etc/hosts
+/etc/<APPLICATION>
+/sys
+mount | grep sysfs

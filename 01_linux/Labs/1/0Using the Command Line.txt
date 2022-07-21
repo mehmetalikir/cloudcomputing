@@ -1,0 +1,10 @@
+
+-------------
+ssh user@host
+whoami
+ls 
+pwd
+last 
+uptime
+man ls
+-------------

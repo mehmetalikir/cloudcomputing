@@ -1,0 +1,25 @@
+foldername[master]$ 
+
+mkdir -p src/pgbackup tests
+touch src/pgbackup/__init__.py tests/.keep
+
+vim setup.py
+
+pipenv shell
+
+pip install -e .
+
+pip uninstall pgbackup
+
+
+vim Makefile
+
+make
+
+make install
+
+ls -al
+
+
+
+

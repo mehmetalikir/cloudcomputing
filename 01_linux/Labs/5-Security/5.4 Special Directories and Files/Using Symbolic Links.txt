@@ -1,0 +1,11 @@
+mkdir bin
+
+echo 'PATH=$HOME/bin:$PATH' >> .bashrc
+
+ln -s /usr/lib/rpm/rpmdb_verify bin/rpm_verify
+
+ln -s /usr/lib/rpm/rpmdb_dump bin/rpm_dump
+
+ln -s /usr/lib/rpm/rpmdb_load bin/rpm_load
+
+rpm_verify /var/lib/rpm/Packages

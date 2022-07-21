@@ -1,0 +1,19 @@
+
+ps aux | grep -v grep | wc -l
+uptime
+cat /proc/loadavg
+
+
+ps -U cloud_user | wc -l
+ps aux | grep xfce4-session | grep -v grep
+cat /proc/<PID_VALUE>/status | grep Threads
+
+#!/bin/bash
+ 
+if [ -n $1 ]
+then
+  _pid=$(ps aux | grep -E "$1\$" | grep -v grep | grep -v threads.sh | awk '{print $2}')
+  cat /proc/$_pid/status | grep Threads
+fi
+
+./bin/threads.sh xfce4-session

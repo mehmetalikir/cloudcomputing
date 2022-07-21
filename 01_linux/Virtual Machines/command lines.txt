@@ -1,0 +1,54 @@
+--------------------------
+ cd ./Desktop/Cloudy/Shell
+vagrant up
+vagrant ssh
+exit
+vagrant halt
+--------------------------
+curl http://bla bla
+sudo apt-get update
+sudo apt-get install
+--------------------------
+apropos, apropos working directory
+--------------------------
+rf (recursive force)
+ping 8.8.8.8
+sort Ctrl+D
+bc  r^2 
+-------------------------
+man man
+less ---> D key, space bar, U key, > skip to the last line, /search
+vim
+emacs
+joe
+nano
+--------------------------
+history
+sudo unzip
+cat
+diff
+wc
+ls -a
+ls -l
+ls Photos
+--------------------------
+mv source destination
+mv item1 item2 ../directory
+rm -r junk
+--------------------------
+globbing$
+ls *blabla, ls blabla*, ls *blabla*, ls b*java , ls bla.{bla, blaa}, ls bl?.java, ls bla[badkadsad]la.js, 
+
+cp folder1/*java folder2
+ls *{ico,js,css}
+echo something 
+--------------------------
+lsb release -a
+uname -r
+ls -version
+
+
+
+
+
+

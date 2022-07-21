@@ -1,0 +1,4 @@
+ dmesg | grep sda | wc -l
+
+dmesg | grep -l usb
+dmesg | grep -l memory

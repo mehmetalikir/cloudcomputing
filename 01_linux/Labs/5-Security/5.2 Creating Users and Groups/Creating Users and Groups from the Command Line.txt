@@ -1,0 +1,21 @@
+for i in jen william matt sam anne danny kate bruce; do sudo useradd -m $i; done
+
+
+sudo groupadd management
+sudo groupadd sales
+sudo groupadd operations
+
+
+for i in management sales operations ; do sudo usermod -a -G $i jen; done
+
+for i in management sales operations ; do sudo usermod -a -G $i william; done
+
+for i in matt sam anne danny; do sudo usermod -a -G sales $i; done
+
+for i in kate bruce; do sudo usermod -a -G operations $i; done
+
+tail -n3 /etc/group
+
+```
+for i in jen william matt sam anne danny kate bruce; do groups $i; done
+```

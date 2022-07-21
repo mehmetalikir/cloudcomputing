@@ -1,0 +1,24 @@
+sudo su -
+yum groupinstall -y "tools"
+yum install -y lsof wget vim-enhanced words which 
+
+git config --global user.name "mehmetalikir"
+git config --global user.email "mehmetalakir@outlook.com"
+curl https://raw.githubusercontent.com/linuxacademy/contect-python
+https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/bashrc -o ~/.bashrc
+
+exec $SHELL
+
+https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/vimrc -o ~/.bashrc
+
+vim ~/.vimrc
+vimtutor
+
+mkdir sample 
+cd sample/
+touch file.txt
+git init
+git add --all .
+git status
+git commit -m "new commit"
+

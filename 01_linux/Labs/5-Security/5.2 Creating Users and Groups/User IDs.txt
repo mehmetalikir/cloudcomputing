@@ -1,0 +1,8 @@
+cat /etc/passwd | grep mehmet
+cat /etc/passwd | grep pikachu
+cat /etc/passwd | grep balbazar
+cat /etc/passwd | grep test
+
+cat /etc/passwd | grep www
+
+

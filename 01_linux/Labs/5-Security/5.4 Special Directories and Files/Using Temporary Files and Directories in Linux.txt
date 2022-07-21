@@ -1,0 +1,10 @@
+cd /tmp
+
+wget https://github.com/mscjr/LA/raw/master/RH342/sosreport-ip-10-0-1-11-2019-03-22-wxoxhnk.tar.xz
+
+tar xf sosreport-ip-10-0-1-11-2019-03-22-wxoxhnk.tar.xz
+
+tmp_file=$(mktemp)
+ls -R sosreport-ip-10-0-1-11-2019-03-22-wxoxhnk/ >> $tmp_file
+
+mv sosreport-ip-10-0-1-11-2019-03-22-wxoxhnk/version.txt /var/tmp

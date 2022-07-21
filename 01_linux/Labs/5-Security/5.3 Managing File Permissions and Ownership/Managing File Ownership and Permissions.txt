@@ -1,0 +1,22 @@
+for i in bill susan juan; do sudo passwd -l $i; done
+
+sudo useradd -m nancy
+sudo useradd -m greg
+sudo useradd -m jeremy
+
+
+sudo userdel bill
+sudo chown -R nancy:jason /home/bill
+sudo chmod g+rx /home/bill
+
+sudo userdel susan
+sudo chown -R greg:jason /home/susan
+sudo chmod g+rx /home/susan
+
+sudo userdel juan
+sudo chown -R jeremy:sally /home/juan
+sudo chmod g+rx /home/juan
+
+sudo userdel juan
+sudo chown -R jeremy:sally /home/juan
+sudo chmod g+rx /home/juan

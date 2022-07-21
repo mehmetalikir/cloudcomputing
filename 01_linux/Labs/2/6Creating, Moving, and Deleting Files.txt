@@ -1,0 +1,15 @@
+Copy ~/Practice/Test to ~/Report/. 
+
+cp -R Practice/Test/ Report
+
+~/Report/sos_commands/filesys/mount_-l to ~/Report/mounts.txt
+
+cd Report/
+mv sos_commands/filesys/mount_-l mounts.txt
+
+
+rm -rf etc/selinux/
+rm -rf var/log/boot.log
+rm -rf proc/[1-9]*
+rm -rf etc/*.conf
+rm -rf sys/module/ip6t*

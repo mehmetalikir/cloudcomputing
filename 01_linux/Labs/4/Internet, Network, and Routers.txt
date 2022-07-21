@@ -1,0 +1,18 @@
+ip addr show
+ping example.com
+ping -c l example.com
+!ping
+dig www.example.com
+dig @1.1.1.1 www.example.com
+/etc/reslov.conf | grep -v "#"
+
+/etc/hosts
+nano /etc/hosts
+
+ip route show
+ifconfig
+netstat and ss
+host www.example.com
+
+
+
