@@ -1,2 +1,1 @@
-# cloudcomputing
-By A Cloud Guru
+In this tutorial, I update old versions of components in the videos I watched on ACG. After following the sections, I try to develop all the projects accordingly. I modify the project by making changes and additions. I try to make it applicable by simplifying it from the point of view of beginners like me.
