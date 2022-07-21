@@ -1,0 +1,20 @@
+pipenv intall boto3
+exit 
+mkdir ~/.aws
+pip3.6 install --user azurecli
+azure configure 
+
+exec $SHELL
+pipenv shell
+
+vim tests/test_storage.py
+
+echo "UPLOADED" > example.txt
+PYTHONPATH=./src python
+
+>>> import boto3
+>>> from pgbackup import storage
+>>> client = boto3.client('azure')
+>>> infile = open('example.txt', 'rb')
+>>> storage.azure(client, infile, 'pyscripting-db-backups', infile.name)
+exit
