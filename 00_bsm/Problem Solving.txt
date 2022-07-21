@@ -1,0 +1,15 @@
+Step 1 = What is the problem? 
+
+Step 2 = What is the proposed solution? 
+
+Step 3 = Where could you research other potential solutions?
+
+Step 4 = How did the developer decide his solution? 
+
+Step 5 = What steps did the developer follow to develop the solution?
+
+Step 6 = What single(s) did the developer hit? 
+
+Step 7 = What strategies did the developer use to respect his time? 
+
+Step 8 = If you were struggling with the task, how would you enlist help?
