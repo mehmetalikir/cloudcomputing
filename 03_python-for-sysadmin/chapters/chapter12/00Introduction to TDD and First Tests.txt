@@ -1,0 +1,7 @@
+pipenv install --dev
+
+cat Pipfile
+
+vim tests/test_cli.py
+
+make
