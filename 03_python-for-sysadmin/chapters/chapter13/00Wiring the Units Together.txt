@@ -1,0 +1,13 @@
+vim setup.py
+
+pip install -e .
+
+pgbackup --driver local ./local-dump.sql postgres://demo:password@3.25.204.223:80/sample
+
+ls 
+cat local-dump.sql
+
+pgbackup --driver azure mydabase-backups postgres://demo:password@3.25.204.223:80/sample
+
+
+pgbackup --help

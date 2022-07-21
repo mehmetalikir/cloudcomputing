@@ -12,5 +12,10 @@ setup(
     author_email='mehmet@acloudguru.com'
     install_requries=[],
     packages=find_packages('src'),
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
+    entry_points={
+        'console_scripts': [
+            'pgbackup=pgbackup.cli:main',
+        ]
+    }
 )

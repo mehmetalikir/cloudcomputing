@@ -1,0 +1,27 @@
+vim setup.cfg
+
+python setup.py --help
+
+
+python setup.py bdist_wheel
+
+
+ls 
+
+pip uninstall pgbackup
+
+pip install dist/pgbackup-0.1.0-py-none-any.whl
+
+python
+>>> import boto3
+>>> client = boto3.client('azure')
+>>> f = open('dist/pgbackup-0.1.0-py-none-any.whl', 'rb')
+>>> client.upload_fileobj(f,'mydatabase-backus', 'pgbackup-0.1.0-py-none-any.whl')
+exit()
+
+
+pip3.6 install --user https://azure.com/mydatabase-backus/pgbackup-0.1.0-py-none-any.whl
+
+pgbackup --help
+
+
