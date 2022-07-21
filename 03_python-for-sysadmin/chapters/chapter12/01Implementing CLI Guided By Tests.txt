@@ -1,0 +1,6 @@
+touch src/pgbackup/cli.py
+
+make
+
+vim src/pgbackup/cli.py
+

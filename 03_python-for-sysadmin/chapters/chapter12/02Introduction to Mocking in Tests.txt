@@ -1,0 +1,8 @@
+copy .pytest_cache
+
+vim .gitignore
+
+pipenv intall --dev pytest-mock
+
+vim tests/test_pgdump.py
+
